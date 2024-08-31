@@ -1,4 +1,4 @@
-from ast import Str
+
 from flask import Blueprint, request, jsonify
 import mysql.connector
 from mysql.connector import Error

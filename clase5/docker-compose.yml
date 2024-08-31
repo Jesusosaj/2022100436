@@ -4,10 +4,10 @@ services:
     image: mysql:8.0
     container_name: mysql-container
     environment:
-      - MYSQL_ROOT_PASSWORD: rootpassword
-      - MYSQL_DATABASE: jaguarete
-      - MYSQL_USER: unida
-      - MYSQL_PASSWORD: unida123
+       MYSQL_ROOT_PASSWORD: rootpassword
+       MYSQL_DATABASE: jaguarete
+       MYSQL_USER: unida
+       MYSQL_PASSWORD: unida123
     volumes:
       - C:/mysql_data:/var/lib/mysql
     ports:
